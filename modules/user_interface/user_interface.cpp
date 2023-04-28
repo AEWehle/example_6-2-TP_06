@@ -163,6 +163,7 @@ static void userInterfaceDisplayUpdate()
 
         if ( gasDetectorStateRead() ) {
             displayStringWrite( "Detected    " );
+            
         } else {
             displayStringWrite( "Not Detected" );
         }
